@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    main {
+        width: 200px;
+       display:flex; 
+        justify-content: space-evenly;
+       flex-wrap: wrap;
+       align-items: stretch;
+    }
+    div {
+        width: 80px;
+        height: 50px;
+    }
+    #first-div {
+        background-color: red;
+        align-self: center;
+    }
+    #second-div {
+        background-color: green;
+        align-self: flex-end;
+    }
+    #third-div {
+        background-color: blue;
+        align-self: flex-start;
+    }
+</style>
+<body>
+    <main>
+        <div id="first-div"></div>
+        <div id="second-div"></div>
+        <div id="third-div"></div>  
+    </main>
+</body>
+</html>
