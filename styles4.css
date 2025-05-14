@@ -1,0 +1,31 @@
+.magazine-cover {
+    display: grid;
+    grid-template-areas: 
+        "title title title"
+        "feature-article cover-image"
+        "small-article1 small-article2 cover-image";
+    grid-template-rows: auto 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 90vw;
+}
+
+.title {
+    grid-area: title;
+}
+
+.feature-article {
+    grid-area: feature-article;
+}
+
+.cover-image {
+    grid-area: cover-image;
+}
+
+.small-article1 {
+    grid-area: small-article1;
+}
+
+.small-article2 {
+    grid-area: small-article2;
+}
